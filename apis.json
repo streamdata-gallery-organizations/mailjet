@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Mailjet",
+	"description": "This is a repository of mailjet APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/mailjet.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://mailjet.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Mailjet",
+			"x-api-slug": "mailjet",
+			"description": "Streamline your emailing and boost your sales with Mailjet. We serve all your email and SMS needs with one simple and powerful solution. You can try it now with 6000 emails/mo absolutely free. Sign up now, or read more about how we can help your busine...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg",
+			"humanURL": "http://mailjet.com",
+			"baseURL": "https://api.mailjet.com/v3/REST/",
+			"tags": "Mailjet",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Mailjet",
+	"include": [
+		{
+			"name": "Mailjet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/apis.yaml"
+		}
+	]
+}

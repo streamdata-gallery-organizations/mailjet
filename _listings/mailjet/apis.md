@@ -9,161 +9,170 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailje
 x-kinRank: "9"
 x-alexaRank: "20242"
 tags: Mailjet
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Mailjet Messages API Message List
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message List
+  x-api-slug: message-get
   description: Allows you to list messages.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//message/
-  tags: Message,List
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/message-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/message-get-openapi.md
-- name: Mailjet Messages API Message History
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message History
+  x-api-slug: messagehistory-get
   description: List message history resources
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messagehistory/
-  tags: Message,History
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagehistory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagehistory-get-openapi.md
-- name: Mailjet Messages API Message History
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message History
+  x-api-slug: messagehistoryid-get
   description: Get the history of a message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messagehistory/{id}
-  tags: Message,History
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagehistoryid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagehistoryid-get-openapi.md
-- name: Mailjet Messages API Message Information
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message Information
+  x-api-slug: messageinformation-get
   description: Lists the information about a message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messageinformation/
-  tags: Message,Information
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messageinformation-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messageinformation-get-openapi.md
-- name: Mailjet Messages API Message Information
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message Information
+  x-api-slug: messageinformationid-get
   description: Lists a message informaiton.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messageinformation/{id}
-  tags: Message,Information
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messageinformationid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messageinformationid-get-openapi.md
-- name: Mailjet Messages API Message Statistics
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message Statistics
+  x-api-slug: messagesentstatistics-get
   description: Lists the message statistics.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messagesentstatistics/
-  tags: Message,Statistics
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagesentstatistics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagesentstatistics-get-openapi.md
-- name: Mailjet Messages API Message Statistics
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message Statistics
+  x-api-slug: messagesentstatisticsid-get
   description: List message statistics.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messagesentstatistics/{id}
-  tags: Message,Statistics
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagesentstatisticsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagesentstatisticsid-get-openapi.md
-- name: Mailjet Messages API Message State
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message State
+  x-api-slug: messagestateid-get
   description: Returns message state.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messagestate/{id}
-  tags: Message,State
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagestateid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagestateid-get-openapi.md
-- name: Mailjet Messages API Message Statistics
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message Statistics
+  x-api-slug: messagestatistics-get
   description: Message Statistics
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messagestatistics/
-  tags: Message,Statistics
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagestatistics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagestatistics-get-openapi.md
-- name: Mailjet Messages API Message Statistics
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message Statistics
+  x-api-slug: messagestatisticsid-get
   description: Message Statistics
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messagestatistics/{id}
-  tags: Message,Statistics
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagestatisticsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messagestatisticsid-get-openapi.md
-- name: Mailjet Messages API Message Detail
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message Detail
+  x-api-slug: messageid-get
   description: View the details of a message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//message{id}
-  tags: Message,Detail
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messageid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/messageid-get-openapi.md
-- name: Mailjet Messages API
-  x-api-slug: mailjet-messages-api
-  description: 'Mailjet is a real-time Cloud Emailing platform: scalable, agile and
-    flexible! Our unique algorithm boosts your deliverability and our platform provides
-    in-depth insight so you can optimize more than ever. Because 20% of emails never
-    reach the inbox Mailjet is a logical choice! Communication to and from our API
-    is done through HTTP(S) GET and POST queries. We support different formats to
-    choose from depending on your affinities : JSON, XML, serialized PHP, and CSV
-    for some export functions. You can access our API from almost any programming
-    language, and in just a few minutes with our plug and play libraries.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
-  humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST/
-  tags: Mailjet
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mailjet/master/_listings/mailjet/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://mailgun.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://mailjet.stack.network
 - type: x-base
   url: https://api.mailjet.com/
 - type: x-blog
